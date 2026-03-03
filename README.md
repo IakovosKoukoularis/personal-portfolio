@@ -9,7 +9,8 @@ A high-end, responsive developer portfolio built with a **Deep Forest & Earthy S
 
 
 
-[Image of Project Layout]
+<img width="1320" height="714" alt="PersonalPortfolio" src="https://github.com/user-attachments/assets/f75247d8-1a61-43cc-9b44-a9a33a26eae0" />
+
 
 
 ## 🚀 Features
@@ -37,7 +38,7 @@ A high-end, responsive developer portfolio built with a **Deep Forest & Earthy S
 ## 🎓 Education
 
 - **Hellenic Open University (EAP):** Computer Science
-- **IEK ALFA:** Software Engineering & Web Development
+- **IEK ALFA:** Web Development
 
 ## ⚙️ Local Setup
 
@@ -45,7 +46,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Iakovos-Zervos/portfolio-2026.git](https://github.com/Iakovos-Zervos/portfolio-2026.git)
+   git clone 
 
 2. **Install dependencies:**
   npm install
