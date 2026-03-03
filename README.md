@@ -9,7 +9,8 @@ A high-end, responsive developer portfolio built with a **Deep Forest & Earthy S
 
 
 
-[Image of Project Layout]
+<img width="1320" height="714" alt="PersonalPortfolio" src="https://github.com/user-attachments/assets/f75247d8-1a61-43cc-9b44-a9a33a26eae0" />
+
 
 
 ## 🚀 Features
@@ -24,7 +25,6 @@ A high-end, responsive developer portfolio built with a **Deep Forest & Earthy S
 
 - **Frontend:** React 18, TypeScript, Tailwind CSS
 - **Build Tool:** Vite
-- **Icons & Media:** Custom SVG icons and optimized web assets
 - **Deployment:** Vercel / GitHub Pages
 
 ## 📂 Selected Projects
@@ -37,7 +37,7 @@ A high-end, responsive developer portfolio built with a **Deep Forest & Earthy S
 ## 🎓 Education
 
 - **Hellenic Open University (EAP):** Computer Science
-- **IEK ALFA:** Software Engineering & Web Development
+- **IEK ALFA:** Web Development
 
 ## ⚙️ Local Setup
 
@@ -45,7 +45,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Iakovos-Zervos/portfolio-2026.git](https://github.com/Iakovos-Zervos/portfolio-2026.git)
+   git clone [https://github.com/IakovosKoukoularis/personal-portfolio.git]
 
 2. **Install dependencies:**
   npm install
@@ -54,6 +54,6 @@ To run this project locally, follow these steps:
   npm run dev
 
 📩 Contact
-Iakovos Koukoularis - LinkedIn - ikoukoularis@yahoo.gr
+Iakovos Koukoularis - [LinkedIn](https://www.linkedin.com/in/jack-koukoularis/) - ikoukoularis@yahoo.gr
 
 Created with focus on clean code and professional UI.
