@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 interface Education {
   id: number;
@@ -21,6 +21,12 @@ interface Button {
   title: string;
   link: string;
 }
+
+// interface Skill {
+//   id: number;
+//   name: string;
+//   icon: string;
+// }
 
 
 export default function App() {
@@ -95,6 +101,69 @@ export default function App() {
       link: "https://www.linkedin.com/in/jack-koukoularis/"
     }
   ];
+
+  // const skills: Skill[] = [
+  //   {
+  //     id: 1,
+  //     name: "TypeScript",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "React",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Tailwind",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "Css",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 5,
+  //     name: "Html",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 6,
+  //     name: "Javascript",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 6,
+  //     name: "Python",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 7,
+  //     name: "Sql",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 8,
+  //     name: "C",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 9,
+  //     name: "C++",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 10,
+  //     name: "Photoshop",
+  //     icon: "",
+  //   },
+  //   {
+  //     id: 11,
+  //     name: "3Ds max",
+  //     icon: "",
+  //   }
+  // ]
     
 
   return (
