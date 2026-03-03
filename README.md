@@ -25,7 +25,6 @@ A high-end, responsive developer portfolio built with a **Deep Forest & Earthy S
 
 - **Frontend:** React 18, TypeScript, Tailwind CSS
 - **Build Tool:** Vite
-- **Icons & Media:** Custom SVG icons and optimized web assets
 - **Deployment:** Vercel / GitHub Pages
 
 ## 📂 Selected Projects
