@@ -54,6 +54,6 @@ To run this project locally, follow these steps:
   npm run dev
 
 📩 Contact
-Iakovos Koukoularis - LinkedIn - ikoukoularis@yahoo.gr
+Iakovos Koukoularis - [LinkedIn](https://www.linkedin.com/in/jack-koukoularis/) - ikoukoularis@yahoo.gr
 
 Created with focus on clean code and professional UI.
