@@ -22,11 +22,11 @@ interface Button {
   link: string;
 }
 
-// interface Skill {
-//   id: number;
-//   name: string;
-//   icon: string;
-// }
+interface Skill {
+  id: number;
+  name: string;
+  icon: string;
+}
 
 
 export default function App() {
@@ -102,74 +102,74 @@ export default function App() {
     }
   ];
 
-  // const skills: Skill[] = [
-  //   {
-  //     id: 1,
-  //     name: "TypeScript",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "React",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Tailwind",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "Css",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 5,
-  //     name: "Html",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 6,
-  //     name: "Javascript",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 6,
-  //     name: "Python",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 7,
-  //     name: "Sql",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 8,
-  //     name: "C",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 9,
-  //     name: "C++",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 10,
-  //     name: "Photoshop",
-  //     icon: "",
-  //   },
-  //   {
-  //     id: 11,
-  //     name: "3Ds max",
-  //     icon: "",
-  //   }
-  // ]
+  const skills: Skill[] = [
+    {
+      id: 1,
+      name: "TypeScript",
+      icon: "/icons/typescript.png",
+    },
+    {
+      id: 2,
+      name: "React",
+      icon: "/icons/react.png",
+    },
+    {
+      id: 3,
+      name: "Tailwind",
+      icon: "/icons/tailwind.png",
+    },
+    {
+      id: 4,
+      name: "Css3",
+      icon: "/icons/css.png",
+    },
+    {
+      id: 5,
+      name: "Html5",
+      icon: "/icons/html5.png",
+    },
+    {
+      id: 6,
+      name: "Javascript",
+      icon: "/icons/javascript.png",
+    },
+    {
+      id: 6,
+      name: "Python",
+      icon: "/icons/python.png",
+    },
+    {
+      id: 7,
+      name: "Sql",
+      icon: "/icons/sql.png",
+    },
+    {
+      id: 8,
+      name: "C",
+      icon: "/icons/C.png",
+    },
+    {
+      id: 9,
+      name: "C++",
+      icon: "/icons/C++.png",
+    },
+    {
+      id: 10,
+      name: "Photoshop",
+      icon: "/icons/photoshop.png",
+    },
+    {
+      id: 11,
+      name: "3Ds",
+      icon: "/icons/3ds_max.png",
+    }
+  ]
     
 
   return (
     <div className="min-h-screen bg-[#080a09] text-[#e2e2d5] font-sans antialiased selection:bg-[#b89f7d]/30">
       
-      {/* HEADER: Minimalist & Spaced */}
+      {/* HEADER */}
       <header className="flex flex-col items-center justify-center py-32 px-6">
         <h1 className="text-6xl md:text-7xl font-bold tracking-tighter text-[#f5f5f0] mb-4">
           Iakovos Koukoularis
@@ -180,7 +180,7 @@ export default function App() {
         </p>
       </header>
 
-      {/* EDUCATION: Clean Timeline Style */}
+      {/* EDUCATION */}
       <section className='max-w-5xl mx-auto px-6 mb-32'>
         <h2 className='text-xs uppercase tracking-[0.5em] text-[#b89f7d] mb-12 text-center font-bold'>Education</h2>
         <div className="space-y-4">
@@ -196,7 +196,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* PROJECTS: Refined Gallery */}
+      {/* PROJECTS */}
       <section className='max-w-6xl mx-auto px-6 mb-32'>
         <h2 className="text-xs uppercase tracking-[0.5em] text-[#b89f7d] mb-12 text-center font-bold">Personal Portfolio</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
@@ -229,8 +229,23 @@ export default function App() {
           ))}
         </div>
       </section>
+      
+      {/* SKILLS */}
+      <section className="max-w-6xl mx-auto px-6 mb-32">
+        <h2 className="text-xs uppercase tracking-[0.5em] text-[#b89f7d] mb-12 text-center font-bold">Personal Skill Set</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
+          {skills.map(skill => 
+            <div key={skill.icon} className="group flex flex-col items-center">
+              <div className="relative size-24 md:size-28 flex items-center justify-center rounded-2xl bg-white/[0.03] border border-white/5 backdrop-blur-sm transition-all duration-500 group-hover:border-[#b89f7d]/40 group-hover:bg-white/[0.08] group-hover:-translate-y-2">
+                <img src={skill.icon} alt={skill.name} className="size-12 md:size-14 object-contain opacity-60 group-hover:opacity-100 grayscale group-hover:grayscale-0 transition-all duration-500"/>
+              </div>
+              <h3 className="mt-4 text-sm font-medium tracking-widest uppercase text-[#8a8a7c] group-hover:text-[#f5f5f0] transition-colors">{skill.name}</h3>
+            </div>
+          )}
+        </div>
+      </section>
 
-      {/* CONTACT: High-End CTA */}
+      {/* CONTACT */}
       <footer className='py-32 px-6 bg-white/[0.02] border-t border-white/5 text-center'>
         <h2 className='text-5xl font-bold mb-8 text-[#f5f5f0] tracking-tighter'>Let’s build something together.</h2>
         <p className='text-[#8a8a7c] max-w-xl mx-auto mb-12 text-lg'>
