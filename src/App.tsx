@@ -50,7 +50,7 @@ export default function App() {
     {
       id: 1,
       title: "WareHouse Managment",
-      image: "",
+      image: "WareHouseManagment.PNG",
       demo: "https://smartwarehousemanagment.netlify.app",
       description: "A custom still in progress multi warehouse managment web application buit with Vite, React, Typescript and Tailwind CSS",
       tags: ["React", "TypeScript", "Tailwind", "Vite", "API"]
