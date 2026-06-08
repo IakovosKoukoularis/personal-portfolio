@@ -49,6 +49,14 @@ export default function App() {
   const projectList: Project[] = [
     {
       id: 1,
+      title: "WareHouse Managment",
+      image: "",
+      demo: "https://smartwarehousemanagment.netlify.app",
+      description: "A custom still in progress multi warehouse managment web application buit with Vite, React, Typescript and Tailwind CSS",
+      tags: ["React", "TypeScript", "Tailwind", "Vite", "API"]
+    },
+    {
+      id: 2,
       title: "Professional Portfolio",
       image: "/PersonalPortfolio.PNG",
       demo: "",
@@ -56,7 +64,7 @@ export default function App() {
       tags: ["React", "TypeScript", "Tailwind", "Vite"]
     },
     {
-      id: 2,
+      id: 3,
       title: "Forkify",
       image: "/Forkify.PNG",
       demo: "https://fokify-iakovos.netlify.app/",
@@ -64,7 +72,7 @@ export default function App() {
       tags: ["JavaScript", "CSS", "API"]
     },
     {
-      id: 3,
+      id: 4,
       title: "RecipeBook",
       image: "/RecipeBook.PNG",
       demo: "https://github.com/IakovosKoukoularis/RecipeBook",
@@ -72,7 +80,7 @@ export default function App() {
       tags: ["Python", "Tkinter", "JSON"]
     },
     {
-      id: 4,
+      id: 5,
       title: "My Website React",
       image: "/my-website-react.PNG",
       demo: "https://iakovos-portfolio.netlify.app",
@@ -80,7 +88,7 @@ export default function App() {
       tags: ["React", "JavaScript", "CSS"]
     },
     {
-      id: 5,
+      id: 6,
       title: "My E-shop",
       image: "/My-eshop.PNG",
       demo: "https://my-learning-eshop.netlify.app/",
